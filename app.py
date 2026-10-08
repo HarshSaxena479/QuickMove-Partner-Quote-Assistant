@@ -621,8 +621,17 @@ if analyze_button:
             for message in partner_quotes:
                 extracted_quote = extract_partner_quote(message)
 
-                if "error" not in extracted_quote:
-                    quotes.append(extracted_quote)
+                if isinstance(extracted_quote, list):
+
+                    for quote in extracted_quote:
+
+                        if isinstance(quote, dict):
+                            quotes.append(quote)
+
+                elif isinstance(extracted_quote, dict):
+
+                    if "error" not in extracted_quote:
+                        quotes.append(extracted_quote)
 
         if not quotes:
 
