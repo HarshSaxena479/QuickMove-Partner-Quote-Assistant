@@ -2,6 +2,10 @@
 
 An AI-assisted operations tool for QuickMove that converts messy moving-partner quotes into structured information and compares them against customer requirements.
 
+## 🚀 Live Demo
+
+**[Open QuickMove Partner Quote Assistant](https://harshsaxena479-quickmove-partner-quote-assistant-app-w8ofxg.streamlit.app/)**
+
 ## Problem
 
 QuickMove operations teams receive partner information in unstructured formats such as WhatsApp messages, emails, and text.
