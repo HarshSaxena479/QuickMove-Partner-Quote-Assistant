@@ -110,3 +110,38 @@ QuickMove/
 ├── README.md
 ├── .env
 └── .venv/
+```
+## How to Use (Input Guide)
+### Customer Requirements
+
+Enter the customer's requirements using the following fields:
+
+- **Move Type:** Enter the type of move, for example `2BHK`.
+- **Source Location:** Enter the pickup location, for example `Whitefield`.
+- **Destination:** Enter the delivery location, for example `HSR`.
+- **Preferred Move Date:** Enter a specific date or a day of the week, for example `Sunday`.
+- **Maximum Budget:** Enter the customer's maximum budget in INR, for example `10000`.
+- **Packing Required:** Select `Yes` if the customer requires packing, otherwise select `No`.
+- **Vehicle Preference:** Enter the minimum required vehicle size, for example `16ft`.
+
+### Partner Quotes
+
+Paste the partner's quote exactly as received from WhatsApp, email, or another source.
+
+For example:
+
+```text
+Vendor: FastMove Logistics
+
+We can handle your 2BHK household move from Whitefield, Bengaluru
+to HSR Layout, Bengaluru on Sunday.
+
+Packing is included.
+Dismantling is included.
+Reassembly is ₹500.
+A 16ft vehicle is available.
+Move availability is confirmed for Sunday.
+
+Base price: ₹8,500.
+Reassembly: ₹500.
+```
