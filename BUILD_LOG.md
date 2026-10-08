@@ -490,3 +490,25 @@ If this were developed further, the next improvements would include:
 10. Monitoring for AI extraction failures and unusual outputs.
 
 The current architecture was designed so these capabilities could be added later without changing the core separation between AI extraction, deterministic validation, AI decision support, and human approval.
+
+---
+
+# 16. Actual Build Time
+
+The build was completed across two working sessions.
+
+### Session 1
+- Start: 6:00 PM
+- End: 12:30 AM
+- Active work time: approximately 6.5 hours
+
+### Session 2
+- Start: 8:00 AM
+- End: 12:30 PM
+- Active work time: approximately 4.5 hours
+
+### Total Active Build Time
+
+Approximately **11 hours** across the two sessions.
+
+The times above reflect the actual time spent working on the assignment.
